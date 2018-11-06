@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
 
 	
-	dis=mam_distances(T_A[0], T_A[1], metric='avg' )
+	dis=mam_distances(T_A[0], T_A2[0], metric='avg' )
 
 
 	print("Track Distance .. ")
