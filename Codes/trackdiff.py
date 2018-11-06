@@ -31,6 +31,7 @@ def loadtrkfile(T_filename, threshold_short_streamlines=10.0):
 
 
 
+
 def show_tract(segmented_tract, color):
     ren = fvtk.ren()           
     fvtk.add(ren, fvtk.line(segmented_tract.tolist(),colors=color, linewidth=2,opacity=0.3))
